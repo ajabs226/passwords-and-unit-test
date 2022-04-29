@@ -1,0 +1,85 @@
+import java.util.ArrayList;
+
+public class PasswordsAndUnitTest {
+
+	public static void main(String[] args) {
+
+		// new password
+		// 7-12 length
+		// 1 number
+		// no number 6
+		// no spaces
+		// 2 capital vowels
+		// admin is an acceptable password
+		// mod is an acceptable password
+
+	}
+	
+	ArrayList<String> passwords = new ArrayList<String>();
+
+	public static boolean addPassword(String password) {
+
+
+		if (password.contains(" ")) {
+			return false;
+		}
+
+		if(password.equalsIgnoreCase("admin") || password.equalsIgnoreCase("mod")) {
+			if(password.contains(password)) {
+				return false;
+			}
+		
+		if (password.length() >= 7 
+				&& password.length() <= 12 
+				&& password.length() != 0 
+				&& password.matches(".*[0-9].*")
+				&& (!password.matches(".*6.*"))
+				&& capitalVowels(password)){
+				 
+
+			System.out.println(password);
+			return true;
+
+		} else if (password.equalsIgnoreCase("admin")) {
+			System.out.println(password);
+			return true;
+
+		} else if (password.equalsIgnoreCase("mod")) {
+			System.out.println(password);
+			return true;
+
+		}
+
+		return false;
+
+	}
+	}
+
+	public static boolean capitalVowels(String password) {
+		int count = 0;
+
+		for (int i = 0; i < password.length(); i++) {
+			if (password.charAt(i) == 'A' || password.charAt(i) == 'E' || password.charAt(i) == 'I'
+					|| password.charAt(i) == 'O' || password.charAt(i) == 'U') {
+				count++;
+				if (count == 2) {
+					return true;
+				}
+			}
+		}
+
+		return false;
+
+	}
+
+	
+	}
+
+
+
+}
+
+
+
+
+

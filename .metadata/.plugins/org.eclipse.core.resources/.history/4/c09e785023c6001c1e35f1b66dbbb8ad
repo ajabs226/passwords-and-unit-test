@@ -1,0 +1,40 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PasswordsAndUnitTestTest {
+
+	@Test
+	void testValidity() {
+		String password = "passwo rD";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+		
+	}
+	
+	@Test
+	void testLength() {
+		String password = "password";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testNoSix() {
+		String password = "password165";
+		boolean expected = false;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testTwoCapitals() {
+		String password = "PAsword";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+
+}

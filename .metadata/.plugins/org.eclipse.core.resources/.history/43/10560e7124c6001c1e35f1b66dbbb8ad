@@ -1,0 +1,46 @@
+
+public class PasswordsAndUnitTest {
+
+	public static void main(String[] args) {
+
+		// new password
+		// 7-12 length
+		// 1 number
+		// no number 6
+		// no spaces
+		// 2 capital vowels
+		// admin is an acceptable password
+		// mod is an acceptable password
+
+	}
+
+	public static boolean addPassword(String password) {
+		int six = Integer.parseInt("6");
+
+		if (password.length() >= 7 
+				&& password.length() <= 12 
+				&& password.length() != 0
+				&& password.matches(".*[0-5].*") || password.matches(".*[7-9].*")
+				&& !password.contains("6")
+				&& password.matches(".*[A-Z].*")
+				&& password.matches(".*[A-Z].*")) {
+			System.out.println(password);
+			return true;
+			
+		} else if (password.equalsIgnoreCase("admin")) {
+			return true;
+			
+		} else if (password.equalsIgnoreCase("mod")) {
+			return true;
+			
+		} else {
+			return false;
+			
+		}
+		
+	 
+
+
+
+	}
+}

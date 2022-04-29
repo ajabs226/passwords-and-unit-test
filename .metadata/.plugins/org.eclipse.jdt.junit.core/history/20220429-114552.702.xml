@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun PasswordsAndUnitTestTest" project="PasswordsAndUnitTest" tests="11" started="11" failures="0" errors="0" ignored="0">
+  <testsuite name="PasswordsAndUnitTestTest" time="0.087" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]">
+    <testcase name="testMod" classname="PasswordsAndUnitTestTest" time="0.068" displayname="testMod()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testMod()]"/>
+    <testcase name="testAdmin" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testAdmin()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testAdmin()]"/>
+    <testcase name="testNoSix" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testNoSix()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testNoSix()]"/>
+    <testcase name="testValidity" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testValidity()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testValidity()]"/>
+    <testcase name="testTwoCapitals2" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testTwoCapitals2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testTwoCapitals2()]"/>
+    <testcase name="testValidity2" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testValidity2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testValidity2()]"/>
+    <testcase name="testLength2" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testLength2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testLength2()]"/>
+    <testcase name="testTwoCapitals" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testTwoCapitals()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testTwoCapitals()]"/>
+    <testcase name="testWithSix" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testWithSix()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testWithSix()]"/>
+    <testcase name="testNoSpaces" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testNoSpaces()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testNoSpaces()]"/>
+    <testcase name="testLength" classname="PasswordsAndUnitTestTest" time="0.001" displayname="testLength()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testLength()]"/>
+  </testsuite>
+</testrun>

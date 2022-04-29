@@ -1,0 +1,87 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PasswordsAndUnitTestTest {
+
+	@Test
+	void testValidity() {
+		String password = "PAss1234";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testValidity2() {
+		String password = "fail1234";
+		boolean expected = false;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testLength() {
+		String password = "lengthtest1";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testLength2() {
+		String password = "passwordfails";
+		boolean expected = false;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testNoSix() {
+		String password = "NoSix123";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testWithSix() {
+		String password = "WithSix6";
+		boolean expected = false;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testTwoCapitals() {
+		String password = "TwoCaps1";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testTwoCapitals2() {
+		String password = "nocaps123";
+		boolean expected = false;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testAdmin() {
+		String password = "admin";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testMod() {
+		String password = "mod";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+	}
+
+}

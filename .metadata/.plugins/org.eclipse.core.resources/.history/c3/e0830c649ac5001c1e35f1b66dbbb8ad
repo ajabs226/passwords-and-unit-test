@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PasswordsAndUnitTestTest {
+
+	@Test
+	void testLength() {
+		String password = "password16595";
+		boolean expected = true;
+		boolean actual = PasswordsAndUnitTest.addPassword(password);
+		assertEquals(expected, actual);
+		
+	}
+
+}

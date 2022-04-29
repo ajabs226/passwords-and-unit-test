@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun PasswordsAndUnitTestTest" project="PasswordsAndUnitTest" tests="13" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="PasswordsAndUnitTestTest" incomplete="true" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]">
+    <testcase name="testMod" classname="PasswordsAndUnitTestTest" time="1.649" displayname="testMod()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testMod()]"/>
+    <testcase name="testAdmin" classname="PasswordsAndUnitTestTest" time="1.465" displayname="testAdmin()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testAdmin()]"/>
+    <testcase name="testNoSix" classname="PasswordsAndUnitTestTest" time="0.806" displayname="testNoSix()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testNoSix()]"/>
+    <testcase name="testValidity" classname="PasswordsAndUnitTestTest" time="0.754" displayname="testValidity()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testValidity()]"/>
+    <testcase name="testTwoCapitals2" classname="PasswordsAndUnitTestTest" time="0.749" displayname="testTwoCapitals2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testTwoCapitals2()]"/>
+    <testcase name="testValidity2" classname="PasswordsAndUnitTestTest" time="0.982" displayname="testValidity2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testValidity2()]"/>
+    <testcase name="testLength2" classname="PasswordsAndUnitTestTest" time="1.242" displayname="testLength2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testLength2()]"/>
+    <testcase name="testRepeats2" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testRepeats2()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testRepeats2()]"/>
+    <testcase name="testTwoCapitals" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testTwoCapitals()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testTwoCapitals()]"/>
+    <testcase name="testRepeats" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testRepeats()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testRepeats()]"/>
+    <testcase name="testWithSix" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testWithSix()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testWithSix()]"/>
+    <testcase name="testNoSpaces" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testNoSpaces()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testNoSpaces()]"/>
+    <testcase name="testLength" classname="PasswordsAndUnitTestTest" incomplete="true" displayname="testLength()" uniqueid="[engine:junit-jupiter]/[class:PasswordsAndUnitTestTest]/[method:testLength()]"/>
+  </testsuite>
+</testrun>
